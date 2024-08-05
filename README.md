@@ -16,7 +16,7 @@ Welcome to the Tic-Tac-Toe game project! This Java-based application provides an
 ## Installation
 
 1. Ensure that JDK is installed on your system.
-2. Download the JAR file from the ./src/.
+2. Download the JAR file from this link https://github.com/Rakesh0045/TicTacToe/tree/master/dist
 3. Run the JAR file using the following command:
 
 ```sh
