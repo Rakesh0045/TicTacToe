@@ -293,15 +293,14 @@ public class TicTacToe extends javax.swing.JFrame {
         jLabel5 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setUndecorated(true);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jPanel1.setBackground(new java.awt.Color(0, 0, 0));
 
         jPanel3.setBackground(new java.awt.Color(0, 0, 0));
 
-        btnTic2.setBackground(new java.awt.Color(255, 255, 255));
         btnTic2.setFont(new java.awt.Font("Tahoma", 1, 95)); // NOI18N
-        btnTic2.setForeground(new java.awt.Color(0, 0, 0));
         btnTic2.setBorder(javax.swing.BorderFactory.createMatteBorder(3, 3, 3, 3, new java.awt.Color(0, 255, 0)));
         btnTic2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -309,9 +308,7 @@ public class TicTacToe extends javax.swing.JFrame {
             }
         });
 
-        btnTic3.setBackground(new java.awt.Color(255, 255, 255));
         btnTic3.setFont(new java.awt.Font("Tahoma", 1, 95)); // NOI18N
-        btnTic3.setForeground(new java.awt.Color(0, 0, 0));
         btnTic3.setBorder(javax.swing.BorderFactory.createMatteBorder(3, 3, 3, 3, new java.awt.Color(0, 255, 0)));
         btnTic3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -319,9 +316,7 @@ public class TicTacToe extends javax.swing.JFrame {
             }
         });
 
-        btnTic4.setBackground(new java.awt.Color(255, 255, 255));
         btnTic4.setFont(new java.awt.Font("Tahoma", 1, 95)); // NOI18N
-        btnTic4.setForeground(new java.awt.Color(0, 0, 0));
         btnTic4.setBorder(javax.swing.BorderFactory.createMatteBorder(3, 3, 3, 3, new java.awt.Color(0, 255, 0)));
         btnTic4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -329,9 +324,7 @@ public class TicTacToe extends javax.swing.JFrame {
             }
         });
 
-        btnTic7.setBackground(new java.awt.Color(255, 255, 255));
         btnTic7.setFont(new java.awt.Font("Tahoma", 1, 95)); // NOI18N
-        btnTic7.setForeground(new java.awt.Color(0, 0, 0));
         btnTic7.setBorder(javax.swing.BorderFactory.createMatteBorder(3, 3, 3, 3, new java.awt.Color(0, 255, 0)));
         btnTic7.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -339,9 +332,7 @@ public class TicTacToe extends javax.swing.JFrame {
             }
         });
 
-        btnTic6.setBackground(new java.awt.Color(255, 255, 255));
         btnTic6.setFont(new java.awt.Font("Tahoma", 1, 95)); // NOI18N
-        btnTic6.setForeground(new java.awt.Color(0, 0, 0));
         btnTic6.setBorder(javax.swing.BorderFactory.createMatteBorder(3, 3, 3, 3, new java.awt.Color(0, 255, 0)));
         btnTic6.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -349,9 +340,7 @@ public class TicTacToe extends javax.swing.JFrame {
             }
         });
 
-        btnTic1.setBackground(new java.awt.Color(255, 255, 255));
         btnTic1.setFont(new java.awt.Font("Tahoma", 1, 95)); // NOI18N
-        btnTic1.setForeground(new java.awt.Color(0, 0, 0));
         btnTic1.setBorder(javax.swing.BorderFactory.createMatteBorder(3, 3, 3, 3, new java.awt.Color(0, 255, 0)));
         btnTic1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -359,9 +348,7 @@ public class TicTacToe extends javax.swing.JFrame {
             }
         });
 
-        btnTic8.setBackground(new java.awt.Color(255, 255, 255));
         btnTic8.setFont(new java.awt.Font("Tahoma", 1, 95)); // NOI18N
-        btnTic8.setForeground(new java.awt.Color(0, 0, 0));
         btnTic8.setBorder(javax.swing.BorderFactory.createMatteBorder(3, 3, 3, 3, new java.awt.Color(0, 255, 0)));
         btnTic8.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -369,9 +356,7 @@ public class TicTacToe extends javax.swing.JFrame {
             }
         });
 
-        btnTic9.setBackground(new java.awt.Color(255, 255, 255));
         btnTic9.setFont(new java.awt.Font("Tahoma", 1, 95)); // NOI18N
-        btnTic9.setForeground(new java.awt.Color(0, 0, 0));
         btnTic9.setBorder(javax.swing.BorderFactory.createMatteBorder(3, 3, 3, 3, new java.awt.Color(0, 255, 0)));
         btnTic9.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -379,9 +364,7 @@ public class TicTacToe extends javax.swing.JFrame {
             }
         });
 
-        btnTic5.setBackground(new java.awt.Color(255, 255, 255));
         btnTic5.setFont(new java.awt.Font("Tahoma", 1, 95)); // NOI18N
-        btnTic5.setForeground(new java.awt.Color(0, 0, 0));
         btnTic5.setBorder(javax.swing.BorderFactory.createMatteBorder(3, 3, 3, 3, new java.awt.Color(0, 255, 0)));
         btnTic5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -501,7 +484,6 @@ public class TicTacToe extends javax.swing.JFrame {
 
         jLabelPlayerX.setBackground(new java.awt.Color(255, 255, 255));
         jLabelPlayerX.setFont(new java.awt.Font("Tahoma", 1, 66)); // NOI18N
-        jLabelPlayerX.setForeground(new java.awt.Color(0, 0, 0));
         jLabelPlayerX.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabelPlayerX.setBorder(javax.swing.BorderFactory.createMatteBorder(3, 3, 3, 3, new java.awt.Color(0, 255, 0)));
         jLabelPlayerX.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
@@ -513,7 +495,6 @@ public class TicTacToe extends javax.swing.JFrame {
 
         jLabelPlayerO.setBackground(new java.awt.Color(255, 255, 255));
         jLabelPlayerO.setFont(new java.awt.Font("Tahoma", 1, 66)); // NOI18N
-        jLabelPlayerO.setForeground(new java.awt.Color(0, 0, 0));
         jLabelPlayerO.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabelPlayerO.setBorder(javax.swing.BorderFactory.createMatteBorder(3, 3, 3, 3, new java.awt.Color(0, 255, 0)));
         jLabelPlayerO.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
@@ -630,6 +611,7 @@ public class TicTacToe extends javax.swing.JFrame {
         getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1400, 1200));
 
         pack();
+        setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
     private JFrame frame;
